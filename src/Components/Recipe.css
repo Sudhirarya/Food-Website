@@ -1,0 +1,62 @@
+/* Main container for the recipe */
+.recipe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Message container with flexbox */
+.msg {
+  display: flex;
+  flex-direction: row; /* Arrange items in a row */
+  align-items: flex-start;
+  gap: 20px; /* Space between items */
+  background-color: #fff;
+  padding: 100px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Recipe image */
+.recipe-img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Information container */
+.info {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 10px;
+}
+
+/* Button styling */
+.recipe-button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-button:hover {
+  background-color: #e67e00;
+}
+
+/* Not Found text */
+.not-found {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+}
